@@ -1,72 +1,265 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AEGYPTA - Explore Ancient Wonders</title>
-  <link rel="stylesheet" href="style.css">
-  <!-- استدعاء خط جوجل للخطوط الأنيقة -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="project.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AEGYPTA</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Cairo&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="">
+  <link rel="stylesheet" href="CSS/main.css">
 </head>
 <body>
-
-  <!-- Header / Navigation Bar -->
-  <header class="navbar">
-    <div class="logo">AEGYPTA</div>
-    <nav class="nav-links">
+ 
+  <!-- Navbar -->
+  <nav class="nav">
+    <b>AEGYPTA</b>
+    <div>
       <a href="#">HOME</a>
       <span>|</span>
-      <a href="#">GIZA</a>
+      <a href="#giza">GIZA</a>
       <span>|</span>
-      <a href="#">LUXOR</a>
+      <a href="#luxor">LUXOR</a>
       <span>|</span>
-      <a href="#">MUSEUMS</a>
+      <a href="#cairo">MUSEUMS</a>
       <span>|</span>
-      <a href="#">ARTIFACTS</a>
-    </nav>
-    <div class="search-box">
-      <input type="text" placeholder="Search...">
-      <button>🔍</button>
+      <a href="#more">ARTIFACTS</a>
     </div>
-  </header>
-
-  <!-- Hero Section -->
-  <section class="hero">
-    <div class="hero-overlay">
+    <input placeholder="Search...">
+  </nav>
+ 
+  <!-- Hero -->
+  <header class="hero">
+    <div>
       <h1>AEGYPTA:</h1>
       <h2>Explore Ancient Wonders</h2>
-      <button class="btn-learn">Learn More</button>
-      <div class="dots">
-        <span class="dot active"></span>
-        <span class="dot"></span>
-        <span class="dot"></span>
-        <span class="dot"></span>
-      </div>
+      <a href="#giza">Learn More</a>
+    </div>
+  </header>
+ 
+  <!-- كل كارت: 3 صور + عنوان، وعند المرور يظهر التعريف -->
+  <section class="sec" id="giza">
+    <h2>الجيزة</h2>
+    <div class="g">
+      <article class="c">
+        <div class="s">
+          <img loading="lazy" src="https://imgs.search.brave.com/BbIPTQL8EovpPJLMtmACtWpZqmiqFTPLeitvdyv9I1Y/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly8yZ2J6/enhwN21rcnFwZ3B6/LnB1YmxpYy5ibG9i/LnZlcmNlbC1zdG9y/YWdlLmNvbS9naXph/LXB5cmFtaWRzL2Fl/cmlhbF92aWV3XzAw/LndlYnA" alt="أهرامات الجيزة وأبو الهول">
+          <img loading="lazy" src="https://imgs.search.brave.com/ihPqJNK7PL1m2PftUqYs3lQm8gibvK7OQYr7ogTpjNA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly8yZ2J6/enhwN21rcnFwZ3B6/LnB1YmxpYy5ibG9i/LnZlcmNlbC1zdG9y/YWdlLmNvbS9naXph/LXB5cmFtaWRzL3Jv/YWRfMDEud2VicA" alt="أهرامات الجيزة وأبو الهول">
+          <img loading="lazy" src="https://imgs.search.brave.com/fuC1i8RqNEuvvOgetGytSFzr1P_xhyCrZ9-n2IhFEPI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly8yZ2J6/enhwN21rcnFwZ3B6/LnB1YmxpYy5ibG9i/LnZlcmNlbC1zdG9y/YWdlLmNvbS9naXph/LXB5cmFtaWRzL3Jv/YWRfMDAud2VicA" alt="أهرامات الجيزة وأبو الهول">
+            <img src="" alt="">
+        </div>
+        <h3 class="t">أهرامات الجيزة وأبو الهول</h3>
+        <div class="d">
+          <h3>أهرامات الجيزة وأبو الهول</h3>
+          <p>أعظم المعالم الأثرية في مصر والعالم؛ تضم أهرامات خوفو وخفرع ومنقرع التي بُنيت كمقابر ملكية في عصر الدولة القديمة، ويحرسها تمثال أبو الهول الشهير</p>
+          <a class="v" href="#">عرض المزيد</a><b>👁</b>
+        </div>
+      </article>
+ 
+      <article class="c">
+        <div class="s">
+          <img loading="lazy" src="https://q-xx.bstatic.com/xdata/images/xphoto/max1200/130060198.jpg?k=13272766be70ec59fa198a8954e85976f217987c5dd6b7ce05e4cb288d2e21ae&o=" alt="سقارة ودهشور">
+          <img loading="lazy" src="https://i0.wp.com/landioustravel.com/wp-content/uploads/2020/11/bent_pyramid_of_snefru-e1618580850856.jpg?fit=1200%2C675&ssl=1" alt="سقارة ودهشور">
+          <img loading="lazy" src="https://vcdn.visit.guide/RAC.php?src=18467328921635765942.jpg&w=830&h=550" alt="سقارة ودهشور">
+        </div>
+        <h3 class="t">سقارة ودهشور</h3>
+        <div class="d">
+          <h3>سقارة ودهشور</h3>
+          <p>مهد تطور العمارة الهرمية في مصر القديمة؛ تضم سقارة هرم زوسر المدرج كأقدم بناء حجري في التاريخ، وتشتهر دهشور بالهرم المنحني والهرم الأحمر للملك سنفرو</p>
+          <a class="v" href="#">عرض المزيد</a><b>👁</b>
+        </div>
+      </article>
+ 
+      <article class="c">
+        <div class="s">
+          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQFJ_xXg5AYeOGvB-yQA8FzeI6WBekfDCoq4-zcUfETA&s=10" alt="المتحف المصري الكبير">
+          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0l25zOrAvMHCPExK2UAK1_jUvb_cSxXc9PAgycnraPw&s=10" alt="المتحف المصري الكبير">
+          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT892sqhBhOhHtkmnR8JifwcwbqSDrcjtUI3O4LbsU3BQ&s=10" alt="المتحف المصري الكبير">
+        </div>
+        <h3 class="t">المتحف المصري الكبير</h3>
+        <div class="d">
+          <h3>المتحف المصري الكبير</h3>
+          <p>أكبر متحف أثري في العالم مخصص لحضارة واحدة؛ يقع بجوار أهرامات الجيزة ويضم أكثر من 100 ألف قطعة أثرية، أبرزها المجموعة الكاملة للملك توت عنخ آمون وتمثال رمسيس الثاني</p>
+          <a class="v" href="#">عرض المزيد</a>b>👁</b>
+        </div>
+      </article>
     </div>
   </section>
+ 
+  
+  <section class="sec" id="luxor">
+    <h2>الأقصر</h2>
+    <div class="g">
+      <article class="c">
+        <div class="s">
+          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP2xqMR1PdJ1FRC4g8rUNgSxQeE91E19So6fTwecRjKA&s=10" alt="معبد الكرنك ">
+          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3cib7ONFtpc1jIhUO_rWWnBWuJZLSYrjfm1y2OAOFSw&s=10" alt="معبد الكرنك ">
+          <img loading="lazy" src="https://explore.rehlat.ae/static/media/searchdestination/thingstodo/images/luxor/temple_of_karnak/large_Templo_de_Karnak,_Luxor,_Egipto,.webp" alt="معبد الكرنك ">
+        </div>
+        <h3 class="t">معبد الكرنك </h3>
+        <div class="d">
+          <h3>معبد الكرنك </h3>
+          <p>أكبر مجمع ديني أثري في العالم بالأقصر؛ شُيّد على مدار قرون لعبادة الإله آمون، ويشتهر بقاعة الأعمدة الكبرى التي تضم 134 عموداً عملاقاً وطريق الكباش</p>
+          <a class="v" href="#">عرض المزيد</a><b>👁</b>
+        </div>
+      </article>
 
-  <!-- Content Section -->
-  <main class="content-section">
-    <h2 class="section-title">Sites Spotlight</h2>
-    <p class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+      <article class="c">
+        <div class="s">
+          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmnhmokXofolSO3nTOOVEDYgebSdAvBgCfERpRPV8IeQ&s=10" alt="وادي الملوك والملكات">
+          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCxn8wN82qGBVI0oZFqiTcBAk_oc_WFuUEnvLVb4Kw3Q&s=10" alt="وادي الملوك والملكات">
+          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrV65kTsnUatF-5eAnJNwUiqKAHz6eSH8odtF_3R8YBg&s=10" alt="وادي الملوك والملكات">
+        </div>
+        <h3 class="t">وادي الملوك والملكات</h3>
+        <div class="d">
+          <h3>وادي الملوك والملكات</h3>
+          <p>المثوى الأخير لفراعنة وملكات الدولة الحديثة بالبر الغربي في الأقصر؛ يضم مقابر منحوتة في الصخر ومزينة بنقوش زاهية، أبرزها مقبرتا توت عنخ آمون والملكة نفرتاري</p>
+          <a class="v" href="#">عرض المزيد</a><b>👁</b>
+        </div>
+      </article>
 
-    <div class="cards-container">
-      <!-- Card 1 -->
-      <div class="card">
-        <img src="https://sis.gov.eg/media/272665/%D9%85%D8%AC%D9%85%D8%B9-%D9%85%D8%B9%D8%A7%D8%A8%D8%AF-%D8%A7%D9%84%D9%83%D8%B1%D9%86%D9%83-1.jpg">
-        <h3>Karnak Temple</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua lorem  veniam volutpat.</p>
-      </div>
 
-      <!-- Card 2 -->
-      <div class="card">
-        <img src="https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&w=600&q=80" alt="Valley of the Kings">
-        <h3>Valley of the Kings</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua lorem  veniam volutpat.</p>
-      </div>
+      <article class="c">
+        <div class="s">
+          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREwQveez6cWqMfTmsd0o609bEVwwz6Tft6GfG3gkuTOA&s=10" alt="معبد حتشبسوت (الدير البحري)">
+          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-0WuMgk_bOPrO_68TXEq0U7GgzEempy7wRTnRHV_Sgw&s=10" alt="معبد حتشبسوت (الدير البحري)">
+          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf2Jw94tY-7yZdw2-LufQVQXiLnbEeo79UAh2vhCn6hg&s=10س" alt="معبد حتشبسوت (الدير البحري)">
+        </div>
+        <h3 class="t">معبد حتشبسوت (الدير البحري)</h3>
+        <div class="d">
+          <h3>معبد حتشبسوت (الدير البحري)</h3>
+          <p>تحفة معمارية فريدة بالدير البحري في الأقصر؛ يتكون من ثلاثة طوابق متدرجة منحوتة في قلب الجبل الصخري، وتوثق جدرانه رحلة حتشبسوت الشهيرة إلى بلاد بونت</p>
+          <a class="v" href="#">زيارة</a><b>👁</b>
+        </div>
+      </article>
     </div>
-  </main>
-
+  </section>
+ 
+  <section class="sec" id="aswan">
+    <h2>أسوان</h2>
+    <div class="g">
+      <article class="c">
+        <div class="s">
+          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUMD4X1HnnUXarexYIarJWhBqq2LQMayNplVU2mapITA&s=10" alt="معبد أبو سمبل">
+          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDEsPlM8GMuCpVMWBR1CzPXGDNngDQb4Co4oqHzPHddA&s=10" alt="معبد أبو سمبل">
+          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjVYL7qkSR7TaP1I5O339Uf1NZ5LuaPIreyVBFPuK5htwB6c0uEepYaKY&s=10" alt="معبد أبو سمبل">
+        </div>
+        <h3 class="t">معبد أبو سمبل</h3>
+        <div class="d">
+          <h3>معبد أبو سمبل</h3>
+          <p>أعجوبة معمارية منحوتة في الصخر بجنوب أسوان؛ يضم معبدي رمسيس الثاني والملكة نفرتاري، ويشتهر بظاهرة تعامد الشمس على قدس الأقداس مرتين سنوياً.</p>
+          <a class="v" href="#">عرض المزيد</a><b>👁</b>
+        </div>
+      </article>
+ 
+      <article class="c">
+        <div class="s">
+          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP50IfbsltkHNGO1aAaTMniNnmeNgRhozE2TLqkx9jmQ&s=10" alt="معبد فيلة">
+          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2tWWoyfo3jvN_Jx4SLbfUqQ8qaCReA7hij34a0q5ofw&s=10" alt="معبد فيلة">
+          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3s1XcJbMTABAlaDNcQRR7WDxRoUwOU6cLwT7-jI63sw&s=10" alt="معبد فيلة">
+        </div>
+        <h3 class="t">معبد فيلة</h3>
+        <div class="d">
+          <h3>معبد فيلة</h3>
+          <p>لؤلؤة معابد النوبة وسط مياه النيل بأسوان؛ شُيّد لعبادة الإلهة إيزيس ويتميز بنقوشه البطلمية والرومانية، ونُقل بالكامل إلى جزيرة أجيليكا لحمايته من الغرق.</p>
+          <a class="v" href="#">عرض المزيد</a><b>👁</b>
+        </div>
+      </article>
+    </div>
+  </section>
+ 
+  <section class="sec" id="cairo">
+    <h2>القاهرة</h2>
+    <div class="g">
+      <article class="c">
+        <div class="s">
+          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5mM-0ccnexoMtDsyCXPje4mXj2jPyUfuxgU9P1dVymQ&s=10" alt="قلعه صلاح الدين">
+          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-DQrD7TZDCHtQVmzwnqfxqZInAgpSOeKcd6398ye_5g&s=10" alt="قلعه صلاح الدين">
+          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmkxLG2aGb0QXOau1tHKf4fy7kBN63NAi-r_DewWk6vw&s=10" alt="قلعه صلاح الدين">
+        </div>
+        <h3 class="t">قلعه صلاح الدين</h3>
+        <div class="d">
+          <h3>قلعه صلاح الدين</h3>
+          <p>أعظم القلاع الحربية في العصور الوسطى فوق جبل المقطم؛ شُيّدت لحماية القاهرة وتضم معالم بارزة أشهرها جامع محمد علي، وتوفر إطلالة بانورامية على المدينة.</p>
+          <a class="v" href="#">عرض المزيد</a><b>👁</b>
+        </div>
+      </article>
+ 
+      <article class="c">
+        <div class="s">
+          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgI4W7t138wH6xc4TVZVD9J5727117w9z7mUhG3NPgHQ&s=10" alt="مصر القديمة والقبطية">
+          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqKmxiXbqxO6Y-6az0s99a63jQbHyOMpCIjQCu6g80Hw&s=10" alt="مصر القديمة والقبطية">
+          <img loading="lazy" src="https://www.arabcont.com/Images/ProjectImage/Church01.jpg" alt="مصر القديمة والقبطية">
+        </div>
+        <h3 class="t">مصر القديمة والقبطية</h3>
+        <div class="d">
+          <h3>مصر القديمة والقبطية</h3>
+          <p>من أقدم وأشهر الكنائس التاريخية بمصر القديمة؛ سُميت بالمعلقة لبنائها فوق برجين من حصن بابليون الروماني، وتتميز بأيقوناتها القبطية النادرة وطرازها الفريد.</p>
+          <a class="v" href="#">عرض المزيد</a><b>👁</b>
+        </div>
+      </article>
+ 
+      <article class="c">
+        <div class="s">
+          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUpDJjn7xFgkcr1dGdgvM7p8ZQEwzOitZQohAkMFTvAQ&s=10" alt="الجامع الازهر">
+          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuqbgTEk6uDWlmsVv4XbZ-ShmKNy40ZCbBHRhiS2285A&s=10" alt="الجامع الازهر">
+          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2lHyDYxRc9Q7ViesdC-32Ep441PL2RRr-hhZrq9EjJQ&s=10" alt="الجامع الازهر">
+        </div>
+        <h3 class="t">الجامع الازهر</h3>
+        <div class="d">
+          <h3>الجامع الازهر</h3>
+          <p>منارة العلم في العالم الإسلامي وأحد أقدم المساجد التاريخية بالقاهرة؛ شُيّد في العصر الفاطمي ويتميز بعمارته التي تجمع بين الطرز الفاطمية والمملوكية والعثمانية.</p>
+          <a class="v" href="#">عرض المزيد</a><b>👁</b>
+        </div>
+      </article>
+    </div>
+  </section>
+ 
+  <section class="sec" id="more">
+    <h2>الإسكندرية ومحافظات أخرى</h2>
+    <div class="g">
+      <article class="c">
+        <div class="s">
+          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWIEvT9ue-N8F8YA1a4m_ahP4XDP7T52K5lWAJrX4xdA&s=10" alt="المسرح الروماني بالاسكندرية">
+          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6rBJOP0Oq7u_aQeIXzRmCgTLXc63qLdH_ctF9T2fkiw&s=10" alt="المسرح الروماني بالاسكندرية">
+          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSCazHUU-Mg1c_XujwV_jnArO0RBDTBL9Z7Y1kgsWvlg&s=10" alt="المسرح الروماني بالاسكندرية">
+        </div>
+        <h3 class="t">المسرح الروماني بالاسكندرية</h3>
+        <div class="d">
+          <h3>المسرح الروماني بالاسكندرية</h3>
+          <p>من أبرز المعالم الرومانية بكوم الدكة في الإسكندرية؛ يتميز بمدرجاته الرخامية المتدرجة ويضم في محيطه بقايا حمامات رومانية وفسيفساء أثرية.</p>
+          <a class="v" href="#">عرض المزيد</a>><b>👁</b>
+        </div>
+      </article>
+ 
+      <article class="c">
+        <div class="s">
+          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdbrEGjmcdQSNc3f6oSBnQSFjSOFj_kSbdZNN5FCP39w&s=10" alt="دير سانت كاترين">
+          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqGpNohvvohEPRvn9EHXXbcAtLeMSW4jKpviMbnsdjog&s=10" alt="دير سانت كاترين">
+          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnlElVASkQWhK9uPHqDxGhM9P4wDPSlviB5l6ycM6udg&s=10" alt="دير سانت كاترين">
+        </div>
+        <h3 class="t">دير سانت كاترين في جنوب سيناء</h3>
+        <div class="d">
+          <h3>دير سانت كاترين في جنوب سيناء</h3>
+          <p>من أقدم الأديرة العاملة في العالم بجنوب سيناء عند سفح جبل موسى؛ يشتهر بمخطوطاته النادرة، أيقوناته القديمة، وموقعه الجبلي الفريد.</p>
+          <a class="v" href="#">عرض المزيد</a><b>👁</b>
+        </div>
+      </article>
+ 
+      <article class="c">
+        <div class="s">
+          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEMVE3hw6Bba2rw9xt7OnMlvSzvQCKr40SSkHpwXKVCg&s=10" alt="معبد امون في سيوة">
+          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1_E6c6LKkHaP0xIMoh2e4ECQVLN2FFLLliysKkG3KsQ&s=10" alt="معبد امون في سيوة">
+          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_Nbd6x9zXiKLAMTmNkk_Q7zBlpuIyC0lgtwwzNUf9dQ&s=10" alt="معبد امون في سيوة">
+        </div>
+        <h3 class="t">معبد امون في سيوة</h3>
+        <div class="d">
+          <h3>معبد امون في سيوة</h3>
+          <p>من أشهر المعالم الأثرية في واحة سيوة؛ ارتبط بعبادة الإله آمون وشهرته القديمة بالنبوءات في قلب الصحراء الغربية.</p>
+          <a class="v" href="#">عرض المزيد</a><b>👁</b>
+        </div>
+      </article>
+    </div>
+  </section>
+ 
 </body>
 </html>
